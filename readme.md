@@ -2,6 +2,8 @@
 
 This project provide possibility to load test Apache Pulsar.
 
+Requirements: Java 11+
+
 Running parameters:
 
 * **-c, --cert** - Path to authorization certificate
@@ -14,8 +16,8 @@ Running parameters:
 * **-u, --url** - Pulsar url [default pulsar://localhost:6650]
 * **-x, --threads** - Number of processing threads [default 4]
 
-1) Download zip file
-2) Extract folder
+1) Download zip file [pulsar-load.zip](https://github.com/osomahe/pulsar-load/releases/download/0.1.0/pulsar-load.zip)
+2) Extract archive
 3) Run application `java -jar quarkus-run.jar` with your parameters
 
 
